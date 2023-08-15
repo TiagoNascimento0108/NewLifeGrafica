@@ -1,9 +1,84 @@
+/*Estilo global*/
+
+h1{
+    font-weight: 200;
+}
+p{
+    font-weight: 500;
+}
+
 body{
     margin: 0px;
     padding: 0px;
+    background-color: #FFFAF0;
 }
+button{
+    border-radius: 6px;
+    border: none;
+    background-color: blanchedalmond;
+}
+button:hover{
+    background-color: aqua;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+/*fim do estilo global*/
 .header{
+    background-color: #5B728F;
     display: flex;
-    border: 1px solid red;
-    padding: 12px;
+    margin-top: 12px;
+    padding-left: 12px;
+}
+.logo{
+    width: 33%;
+    text-align: left;
+}
+.menu{
+    width: 33%;
+    display: flex;
+}
+.menu ul{
+    width: 100%;
+    text-align: center;
+}
+.contact{
+    width: 33%;
+}
+.contact ul li{
+    display: flex;
+    float: right;
+    margin-right: 12px;
+    text-align: center;
+}
+.contact ul li a{
+    text-decoration: none;
+}
+/*inicio do campo de produtos em destaque*/
+.produto-01{
+    background-color: #DBCFB9;
+    border-radius: 12px;
+    margin: 4px;
+}
+.prod-destaq{
+    width: 100%;
+    border-radius: 12px;
+    display: flex;
+    list-style: none;
+    margin-right: 12px;
+}
+.prod-destaq h2{
+    border-radius: 7px;
+}
+.name-photo{
+    display:list-item;
+    text-align: center;
+}
+.name-photo img{
+    width: 100%;
 }
