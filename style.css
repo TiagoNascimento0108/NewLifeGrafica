@@ -30,7 +30,6 @@ ul{
 }
 /*fim do estilo global*/
 .header{
-    background-color: #5B728F;
     display: flex;
     margin-top: 12px;
     padding-left: 12px;
