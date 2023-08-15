@@ -13,12 +13,13 @@ body{
     background-color: #FFFAF0;
 }
 button{
+    width: 100%;
     border-radius: 6px;
     border: none;
-    background-color: blanchedalmond;
+    background-color: #5B728F;
 }
 button:hover{
-    background-color: aqua;
+    background-color: #FFFAF0;
     border: none;
 }
 a{
@@ -73,6 +74,7 @@ ul{
 }
 .prod-destaq h2{
     border-radius: 7px;
+    padding: ;
 }
 .name-photo{
     display:list-item;
@@ -80,4 +82,7 @@ ul{
 }
 .name-photo img{
     width: 100%;
+}
+.description{
+    padding-left: 12px;
 }
