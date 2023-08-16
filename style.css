@@ -88,19 +88,13 @@ ul{
     height: auto;
 }
 /*outros produtos*/
-.titulo-outros{
-    text-align: center;
-}
-.sub-produto{
-    text-align: center;
-    display: flex;
-    text-align: center;
+.titulo{
     border: 1px solid red;
-}
-.sub-produto h4{
     text-align: center;
-    margin: 12px;
 }
-
-.lista-outros{display: flex;}
+.categoria{
+    display: flex;
+    font-weight: 600;
+    border: 1px solid green;
+}
 /*Fim outros produtos*/
